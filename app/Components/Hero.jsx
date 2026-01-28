@@ -79,7 +79,7 @@ const EditorialHero = () => {
         {/* --- LEFT: Typography (Grid Cell) --- */}
         <div className="w-full lg:w-1/2 relative p-8 lg:p-20 flex flex-col justify-between border-r border-slate-200 grid-line-v">
           {/* Header */}
-          <div className="flex justify-between items-start mb-20 lg:mb-0">
+          <div className="flex mt-10 justify-between items-start mb-20 lg:mb-0">
             <div className="overflow-hidden">
               <span className="text-reveal block text-xs font-bold tracking-[0.2em] uppercase text-slate-400">
                 EST. 2008 — Colombo
@@ -164,14 +164,14 @@ const EditorialHero = () => {
             </button>
 
             {/* Floating Statistic (Minimal) */}
-            <div className="hero-btn absolute top-10 right-10 bg-white/90 backdrop-blur px-6 py-4 border-l-2 border-slate-900">
+            {/* <div className="hero-btn absolute top-10 right-10 bg-white/90 backdrop-blur px-6 py-4 border-l-2 border-slate-900">
               <span className="block text-2xl font-bold text-slate-900">
                 98%
               </span>
               <span className="text-xs uppercase tracking-wider text-slate-500">
                 Employment Rate
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
